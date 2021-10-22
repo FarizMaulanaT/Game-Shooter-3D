@@ -56,7 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\AmmoBox.cs" />
+    <Compile Include="Assets\Script\ChangeCamera.cs" />
     <Compile Include="Assets\Script\PlayerAnimation.cs" />
+    <Compile Include="Assets\Script\SwapWeapon.cs" />
+    <Compile Include="Assets\Script\UIManager.cs" />
+    <Compile Include="Assets\Script\WeaponController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
